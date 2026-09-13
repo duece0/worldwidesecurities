@@ -22,7 +22,7 @@ export const Footer: React.FC = () => {
                   WORLDWIDE SECURITIES
                 </h3>
                 <p className="text-[0.65rem] sm:text-xs font-mono-tech tracking-[0.15em] uppercase mt-1" style={{ color: "var(--accent-gold)" }}>
-                  YOUR TRUSTED PARTNER IN CAPITAL MARKETS
+                  NAVIGATING CAPITAL MARKETS
                 </p>
               </div>
             </div>

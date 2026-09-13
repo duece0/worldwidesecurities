@@ -83,7 +83,7 @@ export const HomePage: React.FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'dark
 
           <ScrollReveal animation="pop" delay={100}>
             <h1 className="text-display-massive max-w-5xl overlay-shadow mb-6 text-[var(--text-primary)]">
-              Your Trusted Partner in <span className="text-[var(--accent-gold)] italic font-serif-display">Capital Markets</span>
+              Navigating <span className="text-[var(--accent-gold)] italic font-serif-display">Capital Markets</span>
             </h1>
           </ScrollReveal>
 
