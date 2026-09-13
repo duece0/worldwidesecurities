@@ -106,12 +106,6 @@ export const HomePage: React.FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'dark
             </div>
           </ScrollReveal>
         </div>
-
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
-          <span className="text-[0.65rem] font-mono-tech tracking-widest uppercase text-[var(--text-secondary)]">Scroll</span>
-          <div className="w-0.5 h-6 bg-[var(--accent-gold)] animate-pulse"></div>
-        </div>
       </section>
 
       {/* ABOUT PREVIEW SECTION */}
