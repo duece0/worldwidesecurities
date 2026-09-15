@@ -14,8 +14,6 @@ import { ScrollReveal } from '../components/ScrollReveal';
 interface BoardMember {
   name: string;
   title: string;
-  image: string;
-  bio?: string;
 }
 
 export const AboutPage: React.FC = () => {
@@ -36,32 +34,22 @@ export const AboutPage: React.FC = () => {
     {
       name: 'Mr. Yaw Agyeman-Badu',
       title: 'Board Chairman',
-      image: '/images/board-portrait-1.jpg',
-      bio: 'Distinguished leader in public policy and finance guiding the strategic direction and corporate governance of Worldwide Securities Limited.',
     },
     {
       name: 'Mr. Rexford Adomako-Bonsu',
       title: 'Board Member – Non-Executive Director',
-      image: '/images/board-portrait-2.jpg',
-      bio: 'Corporate strategist with extensive experience in legal risk, financial structuring, and institutional asset management.',
     },
     {
       name: 'Mr. Percy Amoo-Yankey',
       title: 'Board Member – Non-Executive Director',
-      image: '/images/board-portrait-3.jpg',
-      bio: 'Investment banking expert with cumulative decades of advisory experience across Ghanaian debt and equity capital markets.',
     },
     {
       name: 'Mr. Isaac Tettey',
       title: 'Board Member – Non-Executive Director',
-      image: '/images/board-portrait-4.jpg',
-      bio: 'Financial markets advisor contributing regulatory oversight, valuation expertise, and corporate compliance direction.',
     },
     {
       name: 'Mr. Okwei Dowuona',
       title: 'Managing Director',
-      image: '/images/board-portrait-5.jpg',
-      bio: 'Executive lead managing daily market execution, GSE dealing member operations, client portfolio strategy, and firm restructuring.',
     },
   ];
 
@@ -198,38 +186,37 @@ export const AboutPage: React.FC = () => {
             </div>
           </ScrollReveal>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {boardMembers.map((member, idx) => (
-              <ScrollReveal key={idx} animation="pop" delay={((idx % 3) * 100 + 100) as 100 | 200 | 300}>
-                <div className="group border border-[var(--border-subtle)] bg-[var(--bg-ink)] overflow-hidden theme-transition flex flex-col justify-between hover:border-[var(--accent-gold)]/50 shadow-xl h-full">
-                  <div className="relative overflow-hidden bg-black/40" style={{ aspectRatio: '3/4' }}>
-                    <img
-                      src={member.image}
-                      alt={member.name}
-                      className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105 filter grayscale group-hover:grayscale-0"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-[var(--bg-ink)] via-transparent to-transparent opacity-90"></div>
-                  </div>
-
-                  <div className="p-6 flex-grow flex flex-col justify-between">
-                    <div>
-                      <h3 className="font-serif-display text-2xl text-[var(--text-primary)] group-hover:text-[var(--accent-gold)] transition-colors mb-1">
-                        {member.name}
-                      </h3>
-                      <p className="text-xs font-mono-tech text-[var(--accent-gold)] uppercase tracking-wider mb-3">
-                        {member.title}
-                      </p>
-                      {member.bio && (
-                        <p className="text-body text-xs leading-relaxed opacity-80">
-                          {member.bio}
-                        </p>
-                      )}
-                    </div>
-                  </div>
-                </div>
-              </ScrollReveal>
-            ))}
-          </div>
+          {/* Tabular Display of Board & Key Management */}
+          <ScrollReveal animation="pop" delay={100}>
+            <div className="max-w-4xl mx-auto border border-[var(--border-subtle)] bg-[var(--bg-ink)] shadow-2xl overflow-hidden">
+              <div className="overflow-x-auto">
+                <table className="w-full text-left border-collapse">
+                  <thead>
+                    <tr className="border-b border-[var(--separator)] bg-[var(--card-bg)]">
+                      <th className="py-4 px-6 font-mono-tech text-xs uppercase tracking-widest text-[var(--accent-gold)]">
+                        Name
+                      </th>
+                      <th className="py-4 px-6 font-mono-tech text-xs uppercase tracking-widest text-[var(--accent-gold)]">
+                        Position / Role
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-[var(--separator)]">
+                    {boardMembers.map((member, idx) => (
+                      <tr key={idx} className="hover:bg-[var(--card-bg)]/60 transition-colors">
+                        <td className="py-4 px-6 font-serif-display text-lg text-[var(--text-primary)] font-medium">
+                          {member.name}
+                        </td>
+                        <td className="py-4 px-6 font-mono-tech text-xs text-[var(--accent-gold)] uppercase tracking-wider">
+                          {member.title}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </ScrollReveal>
         </div>
       </section>
 
