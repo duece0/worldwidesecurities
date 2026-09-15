@@ -32,10 +32,10 @@ export const ServicesPage: React.FC = () => {
           <ScrollReveal animation="pop">
             <span className="text-nav-meta text-[var(--accent-gold)] mb-3 block">Institutional & Private Solutions</span>
             <h1 className="text-display-large text-[var(--text-primary)] max-w-3xl">
-              Brokerage & Advisory Services
+              Brokerage Services
             </h1>
-            <p className="text-body max-w-2xl text-lg mt-4 leading-relaxed">
-              Our brokerage services are structured to meet our clients' specific needs. We act as facilitators and market makers in the fixed income and equities markets.
+            <p className="text-body max-w-3xl text-lg mt-4 leading-relaxed">
+              Our brokerage services are structured to meet our clients’ specific needs. We act as facilitators and market makers in the fixed income and equities markets. We facilitate the purchase and sale of financial securities for our clients. We provide customized brokerage services for bonds, equities, treasury bills, fixed deposits and commodities.
             </p>
           </ScrollReveal>
         </div>
@@ -125,7 +125,7 @@ export const ServicesPage: React.FC = () => {
                   Bond Trading (Ghana Fixed Income Market)
                 </h3>
                 <p className="text-body text-base mb-6 leading-relaxed">
-                  We facilitate the purchase and sale of fixed income securities on the Ghana Fixed Income Market (GFIM) and undertake private placement of debt instruments to help clients raise capital.
+                  We facilitate the purchase and sale of fixed income securities (bonds, treasury bills, bank fixed deposits, cocoa bills etc) on the Ghana Fixed Income Market. We also undertake private placements of fixed income securities.
                 </p>
 
                 <ul className="space-y-3 mb-8">
@@ -160,8 +160,8 @@ export const ServicesPage: React.FC = () => {
               <h2 className="text-display-large text-[var(--text-primary)]">
                 Strategic Corporate Advisory
               </h2>
-              <p className="text-body max-w-2xl mt-3">
-                Our advisory team is made up of seasoned professionals with decades of cumulative experience in financial strategy, mergers, and capital growth.
+              <p className="text-body max-w-3xl mt-3 leading-relaxed">
+                Our advisory team is made up seasoned professionals with decades long experience in advising clients on matters of financial strategy, business growth strategy, valuations among other customized advisory work.
               </p>
             </div>
           </ScrollReveal>
@@ -194,7 +194,7 @@ export const ServicesPage: React.FC = () => {
                     Corporate Valuation
                   </h3>
                   <p className="text-body text-sm leading-relaxed mb-6">
-                    We offer robust business valuation services backed by our deep understanding of industry-specific factors that determine the true intrinsic value of a enterprise.
+                    We offer a robust business valuation service backed by our deep understanding of industry specific factors that determine the intrinsic value of a business. We offer our services on a piece-meal basis or as part of our Initial Public Offering suite of services.
                   </p>
                 </div>
                 <Link to="/about#contact" className="btn-ghost text-xs py-2.5 px-4 w-full text-center block">
@@ -212,7 +212,7 @@ export const ServicesPage: React.FC = () => {
                     Initial Public Offering (IPO)
                   </h3>
                   <p className="text-body text-sm leading-relaxed mb-6">
-                    As Lead Advisers and Sponsoring Brokers, we prepare and file the necessary prospectus, manage SEC Ghana regulatory approvals, underwrite offerings, and lead public share placement.
+                    We prepare and file the necessary prospectus and offering documents to support our clients’ capital raising efforts. In this regard, we act as Sponsoring Brokers for listings on the Ghana Stock Exchange. We manage the whole regulatory cycle to ensure that our clients meet all the Securities and Exchange Commission’s requirements for a public capital raise (public offering). We also underwrite (where necessary) capital offerings and undertake the marketing of our clients’ public offering. These marketing activities include identifying and placing share or bond offering with private and institutional investors (both local and international).
                   </p>
                 </div>
                 <Link to="/about#contact" className="btn-shimmer text-xs py-2.5 px-4 w-full text-center block">
