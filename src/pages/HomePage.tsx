@@ -77,19 +77,19 @@ export const HomePage: React.FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'dark
           <ScrollReveal animation="pop">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[var(--accent-gold)]/30 bg-[var(--accent-gold)]/10 text-[var(--accent-gold)] font-mono-tech text-xs tracking-widest uppercase mb-8 backdrop-blur-md">
               <ShieldCheck className="w-4 h-4" />
-              <span>Licensed Dealing Member of the Ghana Stock Exchange</span>
+              <span>SEC Ghana Licensed Broker-Dealer</span>
             </div>
           </ScrollReveal>
 
           <ScrollReveal animation="pop" delay={100}>
             <h1 className="text-display-massive max-w-5xl overlay-shadow mb-6 text-[var(--text-primary)]">
-              Navigating <span className="text-[var(--accent-gold)] italic font-serif-display">Capital Markets</span>
+              Navigating the <span className="text-[var(--accent-gold)] italic font-serif-display">Capital Markets</span>
             </h1>
           </ScrollReveal>
 
           <ScrollReveal animation="pop" delay={200}>
             <p className="text-body max-w-2xl text-lg sm:text-xl mb-10 text-[var(--text-secondary)] font-light leading-relaxed">
-              Facilitating financial growth, securities brokerage, and corporate advisory services across Ghana and international capital markets since 2000.
+              Facilitating financial growth, securities brokerage, and corporate advisory services across Ghana and international capital markets since 2001.
             </p>
           </ScrollReveal>
 
@@ -125,7 +125,7 @@ export const HomePage: React.FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'dark
                   <div className="absolute inset-0 bg-gradient-to-t from-[var(--bg-void)]/90 via-transparent to-transparent"></div>
                   <div className="absolute bottom-6 left-6 right-6 p-4 border border-[var(--accent-gold)]/20 backdrop-blur-md bg-black/40">
                     <p className="font-mono-tech text-xs text-[var(--accent-gold)] uppercase tracking-wider">SEC Regulated Broker-Dealer</p>
-                    <p className="text-sm font-semibold text-white mt-1">Established Operations in Ghana Since 2000</p>
+                    <p className="text-sm font-semibold text-white mt-1">Established Operations in Ghana Since 2001</p>
                   </div>
                 </div>
               </ScrollReveal>
@@ -140,7 +140,7 @@ export const HomePage: React.FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'dark
                 </h2>
 
                 <p className="text-body mb-6 text-base sm:text-lg">
-                  Worldwide Securities is licensed by the Securities and Exchange Commission, Ghana as a broker-dealer and a Licensed Dealing Member (LDM) of the Ghana Stock Exchange. We are one of the pioneering broker-dealers in Ghana, having been in operations since year 2000.
+                  Worldwide Securities is licensed by the Securities and Exchange Commission, Ghana as a broker-dealer and a Licensed Dealing Member (LDM) of the Ghana Stock Exchange. We are one of the pioneering broker-dealers in Ghana, having been in operations since year 2001.
                 </p>
 
                 <p className="text-body mb-8">

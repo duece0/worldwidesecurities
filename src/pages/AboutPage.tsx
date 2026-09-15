@@ -76,7 +76,7 @@ export const AboutPage: React.FC = () => {
               About Worldwide Securities
             </h1>
             <p className="text-body max-w-2xl text-lg mt-4">
-              Facilitating financial market participation, capital expansion, and advisory excellence in Ghana since 2000.
+              Facilitating financial market participation, capital expansion, and advisory excellence in Ghana since 2001.
             </p>
           </ScrollReveal>
         </div>
@@ -122,7 +122,7 @@ export const AboutPage: React.FC = () => {
                 </p>
 
                 <p className="text-body mb-6 leading-relaxed">
-                  We are one of the pioneering broker-dealers in Ghana, having been in operations since year 2000. Over the years, we have contributed significantly to the development of the capital markets in Ghana. We have listed via Initial Public Offering about five indigenous companies on the Ghana Stock Exchange acting as Lead Advisers and Sponsoring Brokers.
+                  We are one of the pioneering broker-dealers in Ghana, having been in operations since year 2001. Over the years, we have contributed significantly to the development of the capital markets in Ghana. We have listed via Initial Public Offering about five indigenous companies on the Ghana Stock Exchange acting as Lead Advisers and Sponsoring Brokers.
                 </p>
 
                 <p className="text-body leading-relaxed p-4 border-l-2 border-[var(--accent-gold)] bg-[var(--card-bg)]">
