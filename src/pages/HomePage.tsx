@@ -260,7 +260,7 @@ export const HomePage: React.FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'dark
             <div className="text-center max-w-3xl mx-auto mb-16">
               <span className="text-nav-meta text-[var(--accent-gold)] mb-3 block">Why Choose Worldwide Securities</span>
               <h2 className="text-display-large text-[var(--text-primary)]">
-                Built on Trust & Strategic Integrity
+                Built on Solid Trust & Integrity
               </h2>
             </div>
           </ScrollReveal>
