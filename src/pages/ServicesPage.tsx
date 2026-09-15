@@ -59,21 +59,21 @@ export const ServicesPage: React.FC = () => {
               <ScrollReveal animation="left">
                 <div className="flex items-center gap-3 text-[var(--accent-gold)] mb-3 font-mono-tech text-xs uppercase tracking-wider">
                   <TrendingUp className="w-5 h-5" />
-                  <span>GSE Member #004</span>
+                  <span>SEC Regulated</span>
                 </div>
                 <h3 className="font-serif-display text-3xl sm:text-4xl text-[var(--text-primary)] mb-4">
-                  Equity Trading (Ghana Stock Exchange)
+                  Equity Trading
                 </h3>
                 <p className="text-body text-base mb-6 leading-relaxed">
-                  We facilitate the purchase and sale of equities (shares) on the Ghana Stock Exchange. We also offer customized private placement services for the purchase and sale of shares in privately held companies.
+                  We facilitate the purchase and sale of equities (shares). We also offer customized private placement services for the purchase and sale of shares in privately held companies.
                 </p>
 
                 <ul className="space-y-3 mb-8">
                   {[
-                    'Execution of GSE-listed equity trades for retail and institutional investors',
+                    'Execution of equity trades for retail and institutional clients',
                     'Private placement of equity shares for unlisted corporate entities',
                     'Portfolio management advisory and valuation reporting',
-                    'Direct sponsorship of block transactions on the GSE main board',
+                    'Direct sponsorship of block transactions for corporate entities',
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3 text-sm text-[var(--text-primary)]">
                       <CheckCircle2 className="w-4 h-4 text-[var(--accent-gold)] shrink-0 mt-1" />

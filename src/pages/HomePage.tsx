@@ -21,16 +21,16 @@ export const HomePage: React.FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'dark
       subtitle: 'Market Facilitation & Execution',
       description:
         'We act as facilitators and market makers in the fixed income and equities markets. We facilitate the purchase and sale of financial securities for institutional, corporate, and private clients.',
-      features: ['Bonds & Fixed Income', 'GSE Equities', 'Treasury Bills', 'Fixed Deposit Placement'],
+      features: ['Bonds & Fixed Income', 'Equities Trading', 'Treasury Bills', 'Fixed Deposit Placement'],
       image: '/images/trading-floor.jpg',
       href: '/services#brokerage',
     },
     equity: {
       title: 'Equity Trading',
-      subtitle: 'Ghana Stock Exchange Member',
+      subtitle: 'SEC Regulated Broker-Dealer',
       description:
-        'We facilitate the purchase and sale of equities on the Ghana Stock Exchange and offer customized private placement services for share capital raising.',
-      features: ['GSE Secondary Market Trading', 'Private Placements', 'Portfolio Advisory', 'Block Trade Execution'],
+        'We facilitate the purchase and sale of equities and offer customized private placement services for share capital raising.',
+      features: ['Secondary Market Trading', 'Private Placements', 'Portfolio Advisory', 'Block Trade Execution'],
       image: '/images/service-equity.jpg',
       href: '/services#equity-trading',
     },
@@ -38,8 +38,8 @@ export const HomePage: React.FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'dark
       title: 'Bond Trading',
       subtitle: 'Fixed Income Market Makers',
       description:
-        'We facilitate trading of sovereign and corporate fixed income securities on the Ghana Fixed Income Market (GFIM) and undertake private bond placements.',
-      features: ['GFIM Secondary Trading', 'Bank of Ghana Cocoa Bills', 'Government Notes & Bonds', 'Structured Fixed Income'],
+        'We facilitate trading of sovereign and corporate fixed income securities and undertake private bond placements.',
+      features: ['Fixed Income Secondary Trading', 'Bank of Ghana Cocoa Bills', 'Government Notes & Bonds', 'Structured Fixed Income'],
       image: '/images/service-bond.jpg',
       href: '/services#bond-trading',
     },
@@ -47,7 +47,7 @@ export const HomePage: React.FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'dark
       title: 'Corporate Advisory',
       subtitle: 'Strategic Investment Banking',
       description:
-        'Our seasoned corporate finance team guides firms through mergers, business valuations, restructuring, and listing on the Ghana Stock Exchange via Initial Public Offerings (IPO).',
+        'Our seasoned corporate finance team guides firms through mergers, business valuations, restructuring, and listing via Initial Public Offerings (IPO).',
       features: ['M&A Advisory & Divestitures', 'Independent Corporate Valuation', 'IPO Lead Advisory & Sponsoring', 'Capital Restructuring'],
       image: '/images/office-interior.jpg',
       href: '/services#corporate-advisory',
@@ -144,7 +144,7 @@ export const HomePage: React.FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'dark
                 </p>
 
                 <p className="text-body mb-8">
-                  Over the years, we have contributed significantly to the development of the capital markets in Ghana. We have listed via Initial Public Offering about five indigenous companies on the Ghana Stock Exchange acting as Lead Advisers and Sponsoring Brokers.
+                  Over the years, we have contributed significantly to the development of the capital markets in Ghana. We have listed via Initial Public Offering about five indigenous companies acting as Lead Advisers and Sponsoring Brokers.
                 </p>
 
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 py-6 border-y border-[var(--separator)] mb-8">
@@ -281,7 +281,7 @@ export const HomePage: React.FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'dark
                 <Building2 className="w-10 h-10 text-[var(--accent-gold)] mb-6 group-hover:scale-110 transition-transform" />
                 <h3 className="font-serif-display text-xl text-[var(--text-primary)] mb-3">Capital Raising</h3>
                 <p className="text-body text-sm">
-                  We act as lead advisors and facilitators for corporations looking to raise debt or equity capital on the Ghana Stock Exchange and GFIM.
+                  We act as lead advisors and facilitators for corporations looking to raise debt or equity capital.
                 </p>
               </div>
             </ScrollReveal>

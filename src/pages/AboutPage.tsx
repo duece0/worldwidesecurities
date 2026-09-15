@@ -80,7 +80,7 @@ export const AboutPage: React.FC = () => {
                 <div className="relative border border-[var(--border-subtle)] shadow-2xl overflow-hidden">
                   <img
                     src="/images/trading-floor.jpg"
-                    alt="Ghana Stock Exchange Trading Floor"
+                    alt="Trading Floor"
                     className="w-full h-auto object-cover transition-transform duration-700 hover:scale-105"
                     style={{ aspectRatio: '16/10' }}
                   />
@@ -90,7 +90,7 @@ export const AboutPage: React.FC = () => {
                       <span>Regulatory Standing</span>
                     </div>
                     <p className="text-sm font-semibold text-[var(--text-primary)] mt-1">
-                      Licensed by SEC Ghana & GSE Dealing Member #004
+                      Licensed & Regulated by SEC Ghana
                     </p>
                   </div>
                 </div>
@@ -110,7 +110,7 @@ export const AboutPage: React.FC = () => {
                 </p>
 
                 <p className="text-body mb-6 leading-relaxed">
-                  We are one of the pioneering broker-dealers in Ghana, having been in operations since year 2001. Over the years, we have contributed significantly to the development of the capital markets in Ghana. We have listed via Initial Public Offering about five indigenous companies on the Ghana Stock Exchange acting as Lead Advisers and Sponsoring Brokers.
+                  We are one of the pioneering broker-dealers in Ghana, having been in operations since year 2001. Over the years, we have contributed significantly to the development of the capital markets in Ghana. We have listed via Initial Public Offering about five indigenous companies acting as Lead Advisers and Sponsoring Brokers.
                 </p>
 
                 <p className="text-body leading-relaxed p-4 border-l-2 border-[var(--accent-gold)] bg-[var(--card-bg)]">
@@ -153,7 +153,7 @@ export const AboutPage: React.FC = () => {
                 <Building2 className="w-10 h-10 text-[var(--accent-gold)] mb-6" />
                 <h3 className="font-serif-display text-xl text-[var(--text-primary)] mb-3">Capital Raising</h3>
                 <p className="text-body text-sm leading-relaxed">
-                  We act as advisors and facilitators for firms looking to raise capital on the Ghana Stock Exchange and Ghana Fixed Income Market (GFIM).
+                  We act as advisors and facilitators for firms looking to raise capital in the debt and equity markets.
                 </p>
               </div>
             </ScrollReveal>

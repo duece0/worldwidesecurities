@@ -113,8 +113,8 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
                   className="w-full px-4 py-2.5 bg-[var(--bg-ink)] border border-[var(--separator)] text-[var(--text-primary)] focus:border-[var(--accent-gold)] focus:outline-none transition-colors"
                 >
                   <option value="Brokerage Services">Brokerage & Securities Facilitation</option>
-                  <option value="Equity Trading">Equity Trading (Ghana Stock Exchange)</option>
-                  <option value="Bond Trading">Bond & Fixed Income Trading (GFIM)</option>
+                  <option value="Equity Trading">Equity Trading</option>
+                  <option value="Bond Trading">Bond & Fixed Income Trading</option>
                   <option value="Corporate Advisory">Corporate Advisory & Valuation</option>
                   <option value="IPO Services">Initial Public Offering (IPO) Sponsoring</option>
                 </select>
