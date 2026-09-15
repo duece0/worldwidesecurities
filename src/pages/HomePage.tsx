@@ -149,7 +149,7 @@ export const HomePage: React.FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'dark
 
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 py-6 border-y border-[var(--separator)] mb-8">
                   <div>
-                    <h3 className="font-serif-display text-3xl text-[var(--accent-gold)]">24+</h3>
+                    <h3 className="font-serif-display text-3xl text-[var(--accent-gold)]">25+</h3>
                     <p className="text-xs text-[var(--text-secondary)] uppercase tracking-wider mt-1 font-mono-tech">Years Experience</p>
                   </div>
                   <div>
@@ -157,7 +157,7 @@ export const HomePage: React.FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'dark
                     <p className="text-xs text-[var(--text-secondary)] uppercase tracking-wider mt-1 font-mono-tech">IPO Listings</p>
                   </div>
                   <div>
-                    <h3 className="font-serif-display text-3xl text-[var(--accent-gold)]">SEC & GSE</h3>
+                    <h3 className="font-serif-display text-3xl text-[var(--accent-gold)]">SEC Ghana</h3>
                     <p className="text-xs text-[var(--text-secondary)] uppercase tracking-wider mt-1 font-mono-tech">Fully Regulated</p>
                   </div>
                 </div>
