@@ -118,7 +118,7 @@ export const AboutPage: React.FC = () => {
                 </h2>
 
                 <p className="text-body mb-6 text-base sm:text-lg leading-relaxed">
-                  Worldwide Securities is licensed by the Securities and Exchange Commission, Ghana as a broker-dealer. We are also a Licensed Dealing Member (LDM) of the Ghana Stock Exchange. At Worldwide Securities, we offer bespoke solutions to our clients to enable them meet their securities and business goals.
+                  Worldwide Securities is licensed by the Securities and Exchange Commission, Ghana as a broker-dealer. At Worldwide Securities, we offer bespoke solutions to our clients to enable them meet their securities and business goals.
                 </p>
 
                 <p className="text-body mb-6 leading-relaxed">
@@ -126,7 +126,7 @@ export const AboutPage: React.FC = () => {
                 </p>
 
                 <p className="text-body leading-relaxed p-4 border-l-2 border-[var(--accent-gold)] bg-[var(--card-bg)]">
-                  In year 2022, we suspended operations to undergo a major restructuring of our business. We resumed operations, rebranded with a strengthened capital structure and digitized trading capabilities to deliver enhanced value to our institutional and retail investors.
+                  In year 2022, we suspended operations to undergo a major restructuring of our business. We resumed operations, rebranded with a strengthened capital structure and digitized trading capabilities to deliver enhanced value to our institutional and retail clients.
                 </p>
               </ScrollReveal>
             </div>

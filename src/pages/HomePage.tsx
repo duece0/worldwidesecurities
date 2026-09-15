@@ -140,7 +140,7 @@ export const HomePage: React.FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'dark
                 </h2>
 
                 <p className="text-body mb-6 text-base sm:text-lg">
-                  Worldwide Securities is licensed by the Securities and Exchange Commission, Ghana as a broker-dealer and a Licensed Dealing Member (LDM) of the Ghana Stock Exchange. We are one of the pioneering broker-dealers in Ghana, having been in operations since year 2001.
+                  Worldwide Securities is licensed by the Securities and Exchange Commission, Ghana as a broker-dealer. We are one of the pioneering broker-dealers in Ghana, having been in operations since year 2001.
                 </p>
 
                 <p className="text-body mb-8">

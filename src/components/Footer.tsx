@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
               </div>
             </div>
             <p className="text-body max-w-md text-sm sm:text-base leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-              Licensed by the Securities and Exchange Commission, Ghana as a broker-dealer and a Licensed Dealing Member (LDM) of the Ghana Stock Exchange since 2001.
+              Licensed by the Securities and Exchange Commission, Ghana as a broker-dealer since 2001.
             </p>
           </div>
 
