@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { BrandLogo } from './BrandLogo';
 
 export const Footer: React.FC = () => {
-  const tickerText = "Licensed by SEC Ghana • LDM of GSE • Since 2001 • ";
+  const tickerText = "Licensed by SEC Ghana • Since 2001 • ";
 
   return (
     <footer
