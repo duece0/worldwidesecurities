@@ -17,12 +17,12 @@ const U1 = [
 ];
 
 export const BrandLogo: React.FC<BrandLogoProps> = ({
-  className = "h-14 sm:h-16 w-auto",
+  className = "h-16 sm:h-20 w-auto",
   title = "Worldwide Securities logo",
   variant = 'full',
 }) => {
   return (
-    <div className="flex items-center gap-3 group cursor-pointer select-none">
+    <div className="flex items-center gap-3.5 group cursor-pointer select-none">
       {/* Exact Gold Emblem Crest SVG Diagram from Original Target Site */}
       <svg
         viewBox="0 0 120 150"
@@ -87,8 +87,8 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
 
       {/* Underlined Compact Typography matching original & user specification */}
       {variant === 'full' && (
-        <div className="flex flex-col border-b border-[var(--accent-gold)] pb-0.5 transition-colors">
-          <span className="font-serif-display text-[0.62rem] sm:text-[0.68rem] font-semibold tracking-[0.12em] text-[var(--text-primary)] uppercase whitespace-nowrap group-hover:text-[var(--accent-gold)]">
+        <div className="flex flex-col border-b-2 border-[var(--accent-gold)] pb-0.5 transition-colors">
+          <span className="font-serif-display text-[0.72rem] sm:text-[0.85rem] font-semibold tracking-[0.14em] text-[var(--text-primary)] uppercase whitespace-nowrap group-hover:text-[var(--accent-gold)]">
             WORLDWIDE SECURITIES LIMITED
           </span>
         </div>

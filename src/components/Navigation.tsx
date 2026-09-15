@@ -97,7 +97,7 @@ export const Navigation: React.FC<NavigationProps> = ({
       <div className="max-w-7xl mx-auto px-6 sm:px-8 flex items-center justify-between">
         {/* Brand Logo */}
         <Link to="/" className="flex items-center">
-          <BrandLogo className="h-14 sm:h-16 w-auto" />
+          <BrandLogo className="h-16 sm:h-20 w-auto" />
         </Link>
 
         {/* Desktop Nav */}
