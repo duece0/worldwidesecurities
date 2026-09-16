@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.worldwidesecurities-gh.com/sitemap.xml
